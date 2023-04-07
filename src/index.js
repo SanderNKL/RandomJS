@@ -41,4 +41,4 @@ function uniform(l, h) {
 }
 
 
-module.exports = { choice, randInt };
+module.exports = { choice, randInt, uniform};
