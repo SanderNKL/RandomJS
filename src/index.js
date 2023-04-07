@@ -43,7 +43,4 @@ function uniform(l, h) {
     return number
 }
 
-console.log(randInt(1.9, 2.9))
-
-
 module.exports = { choice, randInt, uniform};
