@@ -1,0 +1,17 @@
+{
+  "name": "pretty-random",
+  "version": "1.0.3",
+  "main": "./src/index.js",
+  "keywords": [],
+  "author": "Nattugle",
+  "license": "MIT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UltimateRPG/RandomJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UltimateRPG/RandomJS/issues"
+  },
+  "homepage": "https://github.com/UltimateRPG/RandomJS/blob/main/README.md"
+}
