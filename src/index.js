@@ -19,6 +19,9 @@ function randInt(l, h) {
     Picks a random number from lowest (l) to highest (h).
     */
 
+    h = Math.floor(h)
+    l = Math.floor(l)
+
     if (isNaN(l) || isNaN(h)) {
         throw new Error(`Received NaN in parameters. (${l}, ${h}, )`);
     };
@@ -39,6 +42,8 @@ function uniform(l, h) {
     const number = Math.random() * (h - l) + l
     return number
 }
+
+console.log(randInt(1.9, 2.9))
 
 
 module.exports = { choice, randInt, uniform};
